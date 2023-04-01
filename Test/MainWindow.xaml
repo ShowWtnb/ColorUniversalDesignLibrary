@@ -1,0 +1,52 @@
+﻿<Window
+    x:Class="Test.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Test"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid x:Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Button
+            Margin="0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Background="Cyan"
+            Content="Button" />
+        <Button
+            Grid.Column="1"
+            Margin="0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Background="Magenta"
+            Content="Button" />
+        <Button
+            Grid.Row="1"
+            Margin="0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Background="Yellow"
+            Content="Button" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="1"
+            Margin="0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Background="Black"
+            Content="Button"
+            Foreground="White" />
+
+    </Grid>
+</Window>
