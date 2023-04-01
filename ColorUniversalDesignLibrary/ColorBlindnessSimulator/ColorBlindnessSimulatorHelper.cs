@@ -9,10 +9,11 @@ namespace ColorUniversalDesignLibrary.ColorBlindnessSimulator
     /// Original source from
     /// https://github.com/veler/DevToys/blob/260d50094bda835ef7e70cd3d1994c434947cbae/src/dev/impl/DevToys/Helpers/ColorBlindnessSimulatorHelper.cs
     /// </summary>
-    /// <author>
+    /// <License>
+    /// MIT License
     /// Copyright (c) 2021 Etienne Baudoux
     /// https://github.com/veler/DevToys/blob/260d50094bda835ef7e70cd3d1994c434947cbae/LICENSE.md
-    /// </author>
+    /// </License>
     internal class ColorBlindnessSimulatorHelper
     {
         // Original source: https://github.com/DaltonLens/libDaltonLens/blob/master/libDaltonLens.c
